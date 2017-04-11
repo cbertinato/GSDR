@@ -3,6 +3,10 @@ A GPS software-defined receiver.
 
 This is a work in progress. The only part implemented so far is satellite acquisition.
 
+# Prerequisites
+
+* FFTW
+
 ## License
 
 MIT License (MIT)
