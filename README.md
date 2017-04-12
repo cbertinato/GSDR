@@ -3,9 +3,25 @@ A GNSS software-defined receiver.
 
 This is a work in progress. The only part implemented so far is satellite acquisition.
 
-## Prerequisites
+## To run
+Install the FFTW library:
+```shell
+sudo apt-get install fftw-devel
+```
+or
+```shell
+sudo yum install fftw-devel.x86_64
+```
+or
+```shell
+brew install fftw
+```
 
-* FFTW
+Build and run:
+```shell
+make
+./acquire
+```
 
 ## License
 
